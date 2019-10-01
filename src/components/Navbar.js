@@ -15,7 +15,7 @@ class Navbar extends Component {
   }
 
   handleToggle() {
-    this.setState({ isOpen: !this.state.isOpen });
+    this.setState(prevState => ({ isOpen: !prevState.isOpen }));
   }
 
   render() {
@@ -39,7 +39,7 @@ class Navbar extends Component {
           >
             <li>
               <Link to="/">Home</Link>
-              <Link to="/">Rooms</Link>
+              <Link to="/rooms">Rooms</Link>
             </li>
           </ul>
         </div>
