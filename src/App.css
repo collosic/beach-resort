@@ -153,6 +153,9 @@ h6 {
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
+  .nav-links li {
+    display: flex;
+  }
 }
 /* end of navbar */
 /* Hero */
